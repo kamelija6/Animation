@@ -1,0 +1,39 @@
+<br>
+<br>
+<h1>Carousel!</h1>
+
+<app-carousel [images]="images"></app-carousel>
+
+<br>
+<br>
+<h1> Auto Carousel!</h1>
+
+<app-carousel [images]="images"
+              [autoSlide]="true"
+></app-carousel>
+
+
+<br>
+<br>
+<h1> Auto slide with custom interval!</h1>
+
+<app-carousel [images]="images"
+              [autoSlide]="true"
+              [slideInterval]="1000"
+></app-carousel>
+
+<br>
+<br>
+<h1> Hide the dot indicators!</h1>
+
+<app-carousel [images]="images"
+              [indicators]="false"
+></app-carousel>
+
+<br>
+<br>
+<h1> Hide the button controls!</h1>
+
+<app-carousel [images]="images"
+              [controls]="false"
+></app-carousel>
